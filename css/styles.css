@@ -30,12 +30,15 @@ margin-right: 76px;
 display: inline-block;}
 .logo-studio {color:#2e2f42;}
 .page-nav {color:#434455;
-font-size: 16px;
+   font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.02em;
-color: #2e2f42;} 
-.nav-flex {padding: 24px 0}       
+   color: #2e2f42;
+   padding: 24px 0} 
+.nav-flex {padding: 24px 0;
+   display: flex;
+   align-items: center;}       
 .page-nav:hover {color:#404BBF;}
 .page-nav:focus {color:#404BBF;} 
 .menu {display: flex;
@@ -48,8 +51,7 @@ color: #2e2f42;}
 .address-lin {font-style: normal;
        font-size: 16px;
        line-height: 1.2px;
-       letter-spacing: 0.02em;
-      }
+       letter-spacing: 0.02em;}
 .address:hover {color:#404BBF;} 
 .address:focus {color:#404BBF;} 
 .address {line-height: 1.5;} 
@@ -103,12 +105,15 @@ color: #2e2f42;}
              line-height: 1.2;
              margin-bottom: 8px;
              text-align: center;}
-.card-color {background-color:#FFFFFF;border-radius: 0px 0px 4px 4px;}          
+.card-color {background-color:#FFFFFF;
+   width: calc((100% - 72px) / 4);
+   border-radius: 0px 0px 4px 4px;}          
 .team {background-color:#F4F4FD;padding: 120px 0;}  
 .card-name {padding: 32px 0;}  
 .prtfl-flex {display: flex;
    flex-wrap: wrap;
-   row-gap: 48px;}
+   row-gap: 48px;
+   column-gap: 24px;}
 .prtfl-card {width: calc((100% - 48px) / 3); }
 .team-title {font-size: 36px;
    font-weight: 500;
@@ -126,7 +131,22 @@ color: #2e2f42;}
 .p-footer {color:#f4f4fd;
          letter-spacing: 0.02em;
          line-height: 1.5;}
-.portfolio {background-color: #FFFFFF;}         
-.container {display: flex;
+.portfolio {background-color: #FFFFFF;
+      padding-top: 120px;
+      padding-bottom: 120px;}   
+.logo-ftr {font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+   width: 115px;
+   height: 24px;
+   margin-right: 76px;
+   display: inline-block;
+   margin-bottom: 16px;}      
+.container .visually-hidden {display: flex;
    max-width: 1158px;
       padding-left:15px; padding-right:15px; margin-left:auto; margin-right:auto; }
+   
