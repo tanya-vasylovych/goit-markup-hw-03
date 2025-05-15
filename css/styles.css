@@ -26,8 +26,7 @@ text-transform: uppercase;
 color:#4d5ae5;
 width: 115px;
 height: 24px;
-margin-right: 76px;
-display: inline-block;}
+margin-right: 76px;}
 .logo-studio {color:#2e2f42;}
 .page-nav {color:#434455;
    font-size: 16px;
@@ -134,17 +133,7 @@ display: inline-block;}
 .portfolio {background-color: #FFFFFF;
       padding-top: 120px;
       padding-bottom: 120px;}   
-.logo-ftr {font-family: 'Raleway', sans-serif;
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #4d5ae5;
-   width: 115px;
-   height: 24px;
-   margin-right: 76px;
-   display: inline-block;
+.logo-ftr {display: inline-block;
    margin-bottom: 16px;}      
 .container {display: flex;
    max-width: 1158px;
