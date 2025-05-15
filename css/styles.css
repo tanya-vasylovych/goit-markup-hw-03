@@ -90,10 +90,9 @@ display: inline-block;}
       justify-content: flex-start;
       flex-direction: column;
       gap: 24px;}
-.crd-flx{width: calc((100% - 72px) / 4);}  
-.section-title .visually-hidden
+.crd-flx {width: calc((100% - 72px) / 4);}  
 .team-flex {display: flex;
-   align-items: center;
+      align-items: center;
       justify-content: center;
       flex-direction: column;
       gap: 24px;}
