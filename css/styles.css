@@ -127,7 +127,7 @@ display: inline-block;}
       border: 1px solid #e7e9fc;
       border-top: none;}
 .footer {background-color:#2e2f42;padding: 100px 0;}
-.logo-footer {color:#f4f4fd;margin-bottom: 16px;}
+.logo-footer {color:#f4f4fd;margin-bottom: 16px; display: inline-block;}
 .p-footer {color:#f4f4fd;
          letter-spacing: 0.02em;
          line-height: 1.5;}
