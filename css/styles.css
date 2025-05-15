@@ -133,8 +133,8 @@ margin-right: 76px;}
 .portfolio {background-color: #FFFFFF;
       padding-top: 120px;
       padding-bottom: 120px;}   
-.logo-ftr {display: inline-block;
-   margin-bottom: 16px;}      
+.logo-ftr {display:inline-block;
+           margin-bottom:16px;}      
 .container {display: flex;
    max-width: 1158px;
       padding-left:15px; padding-right:15px; margin-left:auto; margin-right:auto;}
