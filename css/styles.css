@@ -90,7 +90,8 @@ display: inline-block;}
       justify-content: flex-start;
       flex-direction: column;
       gap: 24px;}
-.crd-flx{width: calc((100% - 72px) / 4);}      
+.crd-flx{width: calc((100% - 72px) / 4);}  
+.section-title .visually-hidden
 .team-flex {display: flex;
    align-items: center;
       justify-content: center;
@@ -146,7 +147,7 @@ display: inline-block;}
    margin-right: 76px;
    display: inline-block;
    margin-bottom: 16px;}      
-.container .visually-hidden {display: flex;
+.container {display: flex;
    max-width: 1158px;
       padding-left:15px; padding-right:15px; margin-left:auto; margin-right:auto; }
    
