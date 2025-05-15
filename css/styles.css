@@ -12,10 +12,12 @@ h1, h2, h3, p {
    margin-top: 0;
    margin-bottom: 0;}
    img {display: block;}
+.hdr {border-bottom: 1px solid #e7e9fc;}
 .descr {font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color:#434455;} 
+   color:#434455;
+   text-align: center;} 
 .logo {font-family: 'Raleway', sans-serif; font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
@@ -23,7 +25,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5;
 width: 115px;
-height: 24px;}
+height: 24px;
+margin-right: 76px;
+display: inline-block;}
 .logo-studio {color:#2e2f42;}
 .page-nav {color:#434455;
 font-size: 16px;
@@ -31,13 +35,16 @@ font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
 color: #2e2f42;} 
-.nav-flex {display: flex;
-   align-items: flex-start;
-      justify-content: flex-start;
-      flex-direction: row;
-      gap: 40px;}       
+.nav-flex {padding: 24px 0}       
 .page-nav:hover {color:#404BBF;}
 .page-nav:focus {color:#404BBF;} 
+.menu {display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: row;
+   gap: 40px;}
+.list {display: flex;
+       gap: 40px;}
 .address-lin {font-style: normal;
        font-size: 16px;
        line-height: 1.2px;
@@ -55,7 +62,12 @@ color: #2e2f42;}
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.04em;} 
+        letter-spacing: 0.04em;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;}
 .button:hover {background-color:#404BBF;}
 .button:focus {background-color:#404BBF;}
 .page-title {font-size: 56px;
@@ -63,44 +75,58 @@ color: #2e2f42;}
              line-height: 1.07; 
              letter-spacing: 0.02em;
              text-align: center;
-             color: #FFFFFF;}
+             color: #FFFFFF;
+            max-width: 496px;}
 .solutions {font-size: 36px;
                 font-weight: 700;
                 letter-spacing: 0.02em;
                 line-height: 1.2;
-                color:#2e2f42;}
+                color:#2e2f42;
+               padding: 188px 0;}
 .card-flex {display: flex;
    align-items: flex-start;
       justify-content: flex-start;
       flex-direction: column;
-      gap: 8px;}
+      gap: 24px;}
+.crd-flx{width: calc((100% - 72px) / 4);}      
 .team-flex {display: flex;
    align-items: center;
       justify-content: center;
       flex-direction: column;
-      gap: 32px;}
-
+      gap: 24px;}
+.prtfl-dscr {padding: 120px 0;}
 .card-title {font-size: 20px;
              font-weight: 500;
              letter-spacing: 0.02em;
              color: #2e2f42;
              background-color: #FFFFFF;
-            line-height: 1.2;}
-.card-color {background-color:#FFFFFF;}
-.team {background-color:#F4F4FD}           
+             line-height: 1.2;
+             margin-bottom: 8px;
+             text-align: center;}
+.card-color {background-color:#FFFFFF;border-radius: 0px 0px 4px 4px;}          
+.team {background-color:#F4F4FD;padding: 120px 0;}  
+.card-name {padding: 32px 0;}  
+.prtfl-flex {display: flex;
+   flex-wrap: wrap;
+   row-gap: 48px;}
+.prtfl-card {width: calc((100% - 48px) / 3); }
 .team-title {font-size: 36px;
    font-weight: 500;
    letter-spacing: 0.02em;
    line-height: 1.11;
    text-align: center;
    text-transform: capitalize;
-   color: #2e2f42;}
-.footer {background-color:#2e2f42;}
-.logo-footer {color:#f4f4fd}
+   color: #2e2f42;
+   margin-bottom: 72px;}
+.bnft {padding: 32px 16px;
+      border: 1px solid #e7e9fc;
+      border-top: none;}
+.footer {background-color:#2e2f42;padding: 100px 0;}
+.logo-footer {color:#f4f4fd;margin-bottom: 16px;}
 .p-footer {color:#f4f4fd;
          letter-spacing: 0.02em;
          line-height: 1.5;}
 .portfolio {background-color: #FFFFFF;}         
-.container {
+.container {display: flex;
    max-width: 1158px;
-      padding-left:16px; padding-right:16px; margin-left:auto; margin-right:auto; }
+      padding-left:15px; padding-right:15px; margin-left:auto; margin-right:auto; }
